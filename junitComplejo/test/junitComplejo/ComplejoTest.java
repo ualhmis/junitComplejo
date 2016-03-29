@@ -14,7 +14,7 @@ public class ComplejoTest {
         // 2. Act
         Complejo resultado = c1.sumar(c2);
         // 3. Assert
-        assertTrue(resultado.getParteReal()==4);
+        assertTrue(resultado.getParteReal()==5);
         assertTrue(resultado.getParteImaginaria()==4);
   }     
 
