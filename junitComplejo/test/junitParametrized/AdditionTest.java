@@ -1,4 +1,4 @@
-package junitSuma;
+package junitParametrized;
 
 import static org.junit.Assert.*;
 
@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import junitSuma.Addition;
+import junitParametrized.Addition;
 
 //JUnit Test Parametrized 
 //http://examples.javacodegeeks.com/core-java/junit/junit-parameterized-test-example/ 	
@@ -22,6 +22,7 @@ public class AdditionTest {
 	private int expected;
 	private int first;
 	private int second;
+	private Addition add;
 
 	public AdditionTest(int expectedResult, int firstNumber,
 			int secondNumber) {
@@ -40,11 +41,14 @@ public class AdditionTest {
 		});
 	}
 
+	@Before
+	public void setUp() {
+		add = new Addition();
+	}
+	
 	@Test
 	public void testAddNumbers() {
-		Addition add = new Addition();
-		System.out.println("Addition with parameters : " + first + " and "
-				+ second);
+		System.out.println("Addition with parameters : " + first + " and " + second);
 		assertEquals(expected, add.addNumbers(first, second));
 	}
 
