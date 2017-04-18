@@ -4,8 +4,8 @@ public class Complejo{
     private float _parteReal;
     private float _parteImaginaria;
 
-    public Complejo(float parteReal, float parteImaginaria){
-     _parteReal = parteReal; _parteImaginaria = parteImaginaria;                
+    public Complejo (float parteReal, float parteImaginaria){
+     this._parteReal = parteReal; this._parteImaginaria = parteImaginaria;                
     }
     public float getParteReal(){
             return _parteReal;
