@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
+
 @RunWith(Parameterized.class)
 public class ComplejoTestParametrized {
 	
@@ -32,8 +33,12 @@ public class ComplejoTestParametrized {
 			{  3,  5,  1, -1,  4,  4 }, 
 			{  3,  5,  1,  1,  4,  6 },
 			{ -3,  5, -1,  1, -4,  6 }, 
+			{ -3, -5, -1,  1, -4, -4 }, 
+			{ -3, -5, -1, -1, -4, -6 }, 
 		});
 	}	
+
+	
 	
 	@Test
 	public void testSumaComplejos(){
@@ -46,4 +51,5 @@ public class ComplejoTestParametrized {
         assertTrue(resultado.getParteReal()==exp_pr);
         assertTrue(resultado.getParteImaginaria()==exp_pi);
   }     
+    
 }
