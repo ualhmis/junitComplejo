@@ -10,7 +10,7 @@ public class ComplejoTest {
 	public void testSumaComplejos(){
         // 1. Arrange 
         Complejo c1 = new Complejo(3, 5);
-        Complejo c2 = new Complejo(1, 1);
+        Complejo c2 = new Complejo(1, -1);
         // 2. Act
         Complejo resultado = c1.sumar(c2);
         // 3. Assert
