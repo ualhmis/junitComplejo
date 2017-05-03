@@ -6,3 +6,5 @@
 [![codecov](https://codecov.io/gh/ualhmis/junitComplejo/branch/master/graph/badge.svg)](https://codecov.io/gh/ualhmis/junitComplejo)
 
 Ejemplos de clase de pruebas unitarias en JUnit. Incluye tests parametrizados con JUnit.
+
+Conectado a Gitlab
