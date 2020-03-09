@@ -16,7 +16,7 @@
 	-->
 	
 		<sonar.projectKey>jUnitComplejo</sonar.projectKey>
-  		<sonar.organization>ualhmis</sonar.organization>
+  		<sonar.organization>ualhmis-2</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
   </properties>
