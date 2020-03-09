@@ -15,7 +15,7 @@
 	<sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
 	-->
 	
-		<sonar.projectKey>jUnitComplejo</sonar.projectKey>
+		<sonar.projectKey>ualhmis_junitComplejo</sonar.projectKey>
   		<sonar.organization>ualhmis-2</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
