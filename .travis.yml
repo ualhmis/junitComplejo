@@ -1,6 +1,6 @@
 language: java
 sudo: false # faster builds
-jdk: oraclejdk8
+jdk: openjdk8
 before_script: cd junitComplejo
 script: "mvn test -B cobertura:cobertura"
 after_success:
