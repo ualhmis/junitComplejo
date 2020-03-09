@@ -14,6 +14,11 @@
 	<sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
 	<sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
 	-->
+	
+		<sonar.projectKey>jUnitComplejo</sonar.projectKey>
+  		<sonar.organization>ualhmis</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
   </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
