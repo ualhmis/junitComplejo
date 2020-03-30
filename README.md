@@ -8,4 +8,6 @@
 
 Ejemplos de clase de pruebas unitarias en JUnit. Incluye tests parametrizados con JUnit.
 
-Conectado a Gitlab - WebHook
+Conectado a Travis - WebHook
+Conectado a CodeCov - WebHook
+
