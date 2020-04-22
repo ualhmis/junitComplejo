@@ -32,7 +32,7 @@ public class ComplejoTestParametrized {
 		return Arrays.asList(new Integer[][] { 
 			{  3,  5,  1, -1,  4,  4 }, 
 			{  3,  5,  1,  1,  4,  6 },
-			{ -3,  5, -1,  1, -4,  6 }, 
+			{ -3,  5, -1,  1, -4,  5 }, 
 			{ -3, -5, -1,  1, -4, -4 }, 
 			{ -3, -5, -1, -1, -4, -6 }, 
 		});
