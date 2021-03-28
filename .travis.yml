@@ -1,7 +1,7 @@
 language: java
 sudo: false # faster builds
 jdk: openjdk8
-before_script: cd junitComplejo
+before_script: cd Junit5Complejo
 script: "mvn test -B cobertura:cobertura"
 after_success:
   - bash <(curl -s https://codecov.io/bash)
